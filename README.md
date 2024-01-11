@@ -1,2 +1,2 @@
-# Gem Hammers
+# TechHammers
 https://www.curseforge.com/minecraft/mc-mods/gem-hammers
