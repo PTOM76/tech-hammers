@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "techhammers:item/ruby_hammer"
+    }
+}

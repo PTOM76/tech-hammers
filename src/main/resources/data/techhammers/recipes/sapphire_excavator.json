@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    "bsb",
+    " s "
+  ],
+  "key": {
+    "b": {
+      "tag": "c:sapphire_blocks"
+    },
+    "i": {
+      "tag": "c:sapphires"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "techhammers:sapphire_excavator"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    "bsb",
+    " s "
+  ],
+  "key": {
+    "b": {
+      "tag": "c:peridot_blocks"
+    },
+    "i": {
+      "tag": "c:peridot_gems"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "techhammers:peridot_excavator"
+  }
+}

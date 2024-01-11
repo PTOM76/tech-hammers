@@ -1,0 +1,17 @@
+{
+  "itemGroup.techhammers.hammers": "Gem Hammers & Excavators",
+
+  "item.techhammers.ruby_hammer": "Ruby Hammer",
+  "item.techhammers.sapphire_hammer": "Sapphire Hammer",
+  "item.techhammers.peridot_hammer": "Peridot Hammer",
+  "item.techhammers.bronze_hammer": "Bronze Hammer",
+  "item.techhammers.ruby_excavator": "Ruby Excavator",
+  "item.techhammers.sapphire_excavator": "Sapphire Excavator",
+  "item.techhammers.peridot_excavator": "Peridot Excavator",
+  "item.techhammers.bronze_excavator": "Bronze Excavator",
+
+  "item.techhammers.basic_electric_hammer": "Basic Electric Hammer",
+  "item.techhammers.advanced_electric_hammer": "Advanced Electric Hammer",
+  "item.techhammers.basic_electric_excavator": "Basic Electric Excavator",
+  "item.techhammers.advanced_electric_excavator": "Advanced Electric Excavator"
+}

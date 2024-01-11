@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    "bsb",
+    " s "
+  ],
+  "key": {
+    "b": {
+      "tag": "c:ruby_blocks"
+    },
+    "i": {
+      "tag": "c:rubies"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "techhammers:ruby_excavator"
+  }
+}

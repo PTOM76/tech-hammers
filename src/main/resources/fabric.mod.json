@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "techhammers",
+  "version": "${version}",
+  "name": "Tech Hammers & Excavators",
+  "description": "Tech Reborn addon that adds Hammer and Excavator",
+  "authors": [
+    "Pitan"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/tech-hammers",
+    "sources": "https://github.com/PTOM76/tech-hammers",
+    "issues": "https://github.com/PTOM76/tech-hammers/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/techhammers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.pitan76.techhammers.TechHammersMod"
+    ]
+  },
+  "mixins": ["techhammers.mixins.json"],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*",
+    "fabric-key-binding-api-v1": "*"
+  }
+}

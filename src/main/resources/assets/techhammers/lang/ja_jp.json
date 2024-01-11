@@ -1,0 +1,17 @@
+{
+  "itemGroup.techhammers.hammers": "Gem Hammers & Excavators",
+
+  "item.techhammers.ruby_hammer": "ルビーのハンマー",
+  "item.techhammers.sapphire_hammer": "サファイアのハンマー",
+  "item.techhammers.peridot_hammer": "ペリドットのハンマー",
+  "item.techhammers.bronze_hammer": "ブロンズのハンマー",
+  "item.techhammers.ruby_excavator": "ルビーのエクスカベーター",
+  "item.techhammers.sapphire_excavator": "サファイアのエクスカベーター",
+  "item.techhammers.peridot_excavator": "ペリドットのエクスカベーター",
+  "item.techhammers.bronze_excavator": "ブロンズのエクスカベーター",
+
+  "item.techhammers.basic_electric_hammer": "基本電動ハンマー",
+  "item.techhammers.advanced_electric_hammer": "上級電動ハンマー",
+  "item.techhammers.basic_electric_excavator": "基本電動エクスカベーター",
+  "item.techhammers.advanced_electric_excavator": "上級電動エクスカベーター"
+}
