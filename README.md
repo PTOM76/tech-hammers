@@ -1,2 +1,2 @@
-# TechHammers
-https://www.curseforge.com/minecraft/mc-mods/gem-hammers
+# Tech Hammers & Excavators
+https://www.curseforge.com/minecraft/mc-mods/tech-hammers

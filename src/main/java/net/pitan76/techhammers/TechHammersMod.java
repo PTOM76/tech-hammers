@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class TechHammersMod implements ModInitializer {
-    public static String MOD_NAME = "TechHammers";
+    public static String MOD_NAME = "Tech Hammers & Excavators";
     public static String MOD_ID = "techhammers";
 
     ArchRegistry registry = ArchRegistry.createRegistry(MOD_ID);
