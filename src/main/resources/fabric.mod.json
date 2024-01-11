@@ -26,6 +26,11 @@
     "fabricloader": "*",
     "fabric": "*",
     "minecraft": "*",
-    "fabric-key-binding-api-v1": "*"
+    "magna": "*"
+  },
+  "suggests": {
+    "vanilla-hammers": "*",
+    "vanillaexcavators": "*",
+    "techreborn": "*"
   }
 }
