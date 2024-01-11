@@ -7,6 +7,7 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
+import net.pitan76.techhammers.tr.TRAddon;
 
 public class TechHammersMod implements ModInitializer {
     public static String MOD_NAME = "Tech Hammers & Excavators";
@@ -31,10 +32,7 @@ public class TechHammersMod implements ModInitializer {
         registry.registerItem(id("bronze_excavator"), () -> GHItems.BRONZE_EXCAVATOR);
 
         if (FabricLoader.getInstance().isModLoaded("techreborn")) {
-            registry.registerItem(id("basic_electric_hammer"), () -> TRItems.BASIC_ELECTRIC_HAMMER);
-            registry.registerItem(id("advanced_electric_hammer"), () -> TRItems.ADVANCED_ELECTRIC_HAMMER);
-            registry.registerItem(id("basic_electric_excavator"), () -> TRItems.BASIC_ELECTRIC_EXCAVATOR);
-            registry.registerItem(id("advanced_electric_excavator"), () -> TRItems.ADVANCED_ELECTRIC_EXCAVATOR);
+            TRAddon.register();
         }
 
         registry.allRegister();
