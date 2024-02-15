@@ -35,7 +35,8 @@ dependencies {
 
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	modImplementation "ml.pkom:mcpitanlibarch-fabric${rootProject.mcpitanlib_version}"
+	modImplementation "net.pitan76:mcpitanlib-fabric${rootProject.mcpitanlib_version}"
+	include "net.pitan76:mcpitanlib_checker-fabric:${rootProject.mcpitanlib_checker_version}"
 
 	modImplementation include ("com.github.Draylar:magna:${project.magna_version}") {
 		exclude group: "net.fabricmc"
@@ -62,14 +63,23 @@ if (System.getenv("CURSEFORGE_TOKEN") != null) {
 	curseforge {
 		apiKey = System.getenv("CURSEFORGE_TOKEN")
 		project {
-			id = '517673'
+			id = '960741'
 			changelog = project.changelog
 			releaseType = 'release'
 			addGameVersion "Fabric"
-			addGameVersion project.minecraft_version
+			addGameVersion '1.18.1'
+			addGameVersion '1.18.2'
+			addGameVersion '1.19'
+			addGameVersion '1.19.1'
+			addGameVersion '1.19.2'
 			relations {
 				requiredDependency "fabric-api"
-				optionalDependency "simple-backpack-fabric"
+				requiredDependency "mcpitanlibarch"
+				requiredDependency "architectury-api"
+				requiredDependency "vanilla-hammers"
+				requiredDependency "vanilla-excavators"
+				optionalDependency "techreborn"
+				optionalDependency "reborncore"
 			}
 
 			mainArtifact(tasks.remapJar)
@@ -103,13 +113,6 @@ tasks.withType(JavaCompile).configureEach {
 	it.options.release = targetJavaVersion
 
 	options.release = 17
-}
-
-tasks.withType(JavaCompile) {
-	options.encoding = "UTF-8"
-	options.release = 17
-	sourceCompatibility = JavaVersion.VERSION_17
-	targetCompatibility = JavaVersion.VERSION_17
 }
 
 java {

@@ -24,9 +24,9 @@
   "mixins": ["techhammers.mixins.json"],
   "depends": {
     "fabricloader": "*",
-    "fabric": "*",
     "minecraft": "*",
-    "magna": "*"
+    "magna": "*",
+    "mcpitanlib": ">2.0.0"
   },
   "suggests": {
     "vanilla-hammers": "*",

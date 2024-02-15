@@ -2,8 +2,8 @@ package net.pitan76.techhammers.tr;
 
 import net.pitan76.techhammers.TRItems;
 
-import static ml.pkom.mcpitanlibarch.test.ExampleMod.registry;
 import static net.pitan76.techhammers.TechHammersMod.id;
+import static net.pitan76.techhammers.TechHammersMod.registry;
 
 public class TRAddon {
     public static void register() {

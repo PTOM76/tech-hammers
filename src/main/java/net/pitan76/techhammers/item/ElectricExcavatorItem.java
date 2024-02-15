@@ -1,6 +1,7 @@
 package net.pitan76.techhammers.item;
 
-import ml.pkom.mcpitanlibarch.api.item.CompatibleItemSettings;
+import net.pitan76.mcpitanlib.api.item.CompatibleItemSettings;
+import net.pitan76.mcpitanlib.api.util.WorldRandomUtil;
 import net.minecraft.block.BlockState;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
@@ -97,7 +98,7 @@ public class ElectricExcavatorItem extends GemExcavatorItem implements RcEnergyI
 
     @Override
     public boolean postMine(ItemStack stack, World world, BlockState state, BlockPos pos, LivingEntity miner) {
-        if (world.random.nextInt(EnchantmentHelper.getLevel(Enchantments.UNBREAKING, stack) + 1) == 0) {
+        if (WorldRandomUtil.nextInt(world, EnchantmentHelper.getLevel(Enchantments.UNBREAKING, stack) + 1) == 0) {
             this.tryUseEnergy(stack, this.cost);
         }
 

@@ -1,6 +1,6 @@
 package net.pitan76.techhammers;
 
-import ml.pkom.mcpitanlibarch.api.item.CompatibleItemSettings;
+import net.pitan76.mcpitanlib.api.item.CompatibleItemSettings;
 import net.pitan76.techhammers.item.GemExcavatorItem;
 import net.pitan76.techhammers.item.GemHammerItem;
 

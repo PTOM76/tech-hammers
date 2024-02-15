@@ -1,7 +1,7 @@
 package net.pitan76.techhammers;
 
-import ml.pkom.mcpitanlibarch.api.item.CreativeTabBuilder;
-import ml.pkom.mcpitanlibarch.api.registry.ArchRegistry;
+import net.pitan76.mcpitanlib.api.item.CreativeTabBuilder;
+import net.pitan76.mcpitanlib.api.registry.CompatRegistry;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.item.ItemGroup;
@@ -13,7 +13,7 @@ public class TechHammersMod implements ModInitializer {
     public static String MOD_NAME = "Tech Hammers & Excavators";
     public static String MOD_ID = "techhammers";
 
-    ArchRegistry registry = ArchRegistry.createRegistry(MOD_ID);
+    public static CompatRegistry registry = CompatRegistry.createRegistry(MOD_ID);
 
     public static ItemGroup GEM_HAMMERS = CreativeTabBuilder.create(id("hammers")).setIcon(() -> new ItemStack(GHItems.RUBY_HAMMER, 1)).build();
 

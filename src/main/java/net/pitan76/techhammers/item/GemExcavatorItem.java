@@ -2,7 +2,7 @@ package net.pitan76.techhammers.item;
 
 import draylar.magna.item.ExcavatorItem;
 import draylar.magna.item.HammerItem;
-import ml.pkom.mcpitanlibarch.api.item.CompatibleItemSettings;
+import net.pitan76.mcpitanlib.api.item.CompatibleItemSettings;
 import net.minecraft.item.ToolMaterial;
 
 public class GemExcavatorItem extends ExcavatorItem {
